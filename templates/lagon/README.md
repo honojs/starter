@@ -1,4 +1,8 @@
 ```
 npm install
-lagon dev src/index.ts
+npm run dev
+```
+
+```
+open http://localhost:1234
 ```
