@@ -1,0 +1,12 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+name = "Hono"
+authors = [""]
+description = ""
+language = "javascript"
+manifest_version = 2
+service_id = ""
+
+[scripts]
+  build = "node ./build.js && js-compute-runtime bin/index.js bin/main.wasm"

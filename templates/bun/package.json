@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "bun-types": "^0.4.0"
+  },
+  "dependencies": {
+    "hono": "^2.7.2"
+  }
+}
