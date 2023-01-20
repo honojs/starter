@@ -9,4 +9,4 @@ app.get((c) => {
   })
 })
 
-export const onRequestGet = handle(app)
+export const onRequest = handle(app)
