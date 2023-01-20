@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "wrangler pages dev ./pages",
+    "deploy": "wrangler pages publish ./pages"
+  },
+  "dependencies": {
+    "hono": "3.0.0-rc.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20221111.1",
+    "wrangler": "^2.8.0"
+  }
+}
