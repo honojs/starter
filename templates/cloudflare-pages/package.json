@@ -4,7 +4,7 @@
     "deploy": "wrangler pages publish ./pages"
   },
   "dependencies": {
-    "hono": "3.0.0-rc.8"
+    "hono": "3.0.0-rc.11"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20221111.1",
