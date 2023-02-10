@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "dev": "wrangler pages dev ./pages",
+    "dev": "wrangler pages dev --compatibility-date=2023-01-01 ./pages",
     "deploy": "wrangler pages publish ./pages"
   },
   "dependencies": {
-    "hono": "3.0.0-rc.11"
+    "hono": "3.0.0-rc.12"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20221111.1",
