@@ -7,10 +7,10 @@ export const config = {
 
 const app = new Hono()
 
-app.get((c) => {
+app.get('/hello', (c) => {
   return c.json({
     message: 'Hello from Hono!',
   })
 })
 
-export default handle(app)
+export default handle('/api', app)
