@@ -9,4 +9,4 @@ app.get('/hello', (c) => {
   })
 })
 
-export const onRequest = handle('/api', app)
+export const onRequest = handle(app, '/api')

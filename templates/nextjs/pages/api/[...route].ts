@@ -13,4 +13,4 @@ app.get('/hello', (c) => {
   })
 })
 
-export default handle('/api', app)
+export default handle(app, '/api')
