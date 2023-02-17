@@ -1,0 +1,13 @@
+{
+  "name": "starters",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "templates/*"
+  ],
+  "license": "MIT",
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "hono": "3.0.0-rc.16"
+  }
+}
