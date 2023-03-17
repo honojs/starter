@@ -1,9 +1,10 @@
 ```
 npm install
+npm run dev
 ```
 
 ```
-npm run dev
+open http://localhost:7676
 ```
 
 ```

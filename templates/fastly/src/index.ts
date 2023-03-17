@@ -1,5 +1,4 @@
 import { Hono } from 'hono'
-import { SHA256 } from 'crypto-js'
 import { basicAuth } from 'hono/basic-auth'
 
 const app = new Hono()
@@ -9,7 +8,6 @@ app.use(
   basicAuth({
     username: 'compute',
     password: 'edge',
-    hashFunction: (m: string) => SHA256(m).toString(),
   })
 )
 
