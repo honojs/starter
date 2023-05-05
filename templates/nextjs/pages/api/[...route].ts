@@ -5,7 +5,7 @@ export const config = {
   runtime: 'edge',
 }
 
-const app = new Hono()
+const app = new Hono().basePath('/api')
 
 app.get('/hello', (c) => {
   return c.json({
@@ -13,4 +13,4 @@ app.get('/hello', (c) => {
   })
 })
 
-export default handle(app, '/api')
+export default handle(app)
