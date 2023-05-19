@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "dev": "wrangler dev --minify src/index.ts",
-    "deploy": "wrangler publish --minify src/index.ts"
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
-    "hono": "^3.1.8"
+    "hono": "^3.2.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20221111.1",
-    "wrangler": "^2.7.1"
+    "wrangler": "^3.0.0"
   }
 }

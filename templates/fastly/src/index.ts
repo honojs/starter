@@ -1,5 +1,5 @@
-import { Hono } from 'hono'
 import { basicAuth } from 'hono/basic-auth'
+import { Hono } from 'hono/quick'
 
 const app = new Hono()
 
@@ -7,7 +7,7 @@ app.use(
   '/auth/*',
   basicAuth({
     username: 'compute',
-    password: 'edge',
+    password: 'edge'
   })
 )
 
