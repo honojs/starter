@@ -8,6 +8,6 @@
   "license": "MIT",
   "packageManager": "yarn@3.4.1",
   "dependencies": {
-    "hono": "^3.2.2"
+    "hono": "^3.2.5"
   }
 }
