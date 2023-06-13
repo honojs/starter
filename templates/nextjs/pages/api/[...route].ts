@@ -1,15 +1,15 @@
 import { Hono } from 'hono'
-import { handle } from 'hono/nextjs'
+import { handle } from 'hono/vercel'
 
 export const config = {
-  runtime: 'edge',
+  runtime: 'edge'
 }
 
 const app = new Hono().basePath('/api')
 
 app.get('/hello', (c) => {
   return c.json({
-    message: 'Hello from Hono!',
+    message: 'Hello from Hono!'
   })
 })
 
