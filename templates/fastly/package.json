@@ -9,7 +9,7 @@
     "esbuild": "^0.17.12"
   },
   "dependencies": {
-    "@fastly/js-compute": "^1.5.1",
+    "@fastly/js-compute": "^2.4.0",
     "hono": "^3.2.6"
   }
 }
