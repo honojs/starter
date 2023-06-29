@@ -6,12 +6,10 @@
     "esModuleInterop": true,
     "strict": true,
     "lib": [
-      "DOM",
       "ESNext"
     ],
     "types": [
-      "@cloudflare/workers-types",
-      "node"
-    ]
+      "@cloudflare/workers-types"
+    ],
   }
 }
