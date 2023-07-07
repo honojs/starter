@@ -1,0 +1,4 @@
+node_modules
+dist
+lambda.zip
+.yarn
