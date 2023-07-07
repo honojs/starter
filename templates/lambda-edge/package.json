@@ -3,8 +3,9 @@
   "scripts": {
     "build": "esbuild --bundle --outfile=./dist/index.js --platform=node --target=node18 ./src/index.ts",
     "zip": "zip -j lambda.zip dist/index.js",
-    "update": "aws lambda update-function-code --zip-file fileb://lambda.zip --function-name hello",
-    "deploy": "run-s build zip update"
+    "update": "aws lambda update-function-code --zip-file fileb://lambda.zip --function-name hello --region us-east-1",
+    "publish": "aws lambda publish-version --function-name hello --region us-east-1",
+    "deploy": "run-s build zip update publish"
   },
   "devDependencies": {
     "esbuild": "^0.17.11",
