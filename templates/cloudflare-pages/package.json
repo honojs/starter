@@ -4,7 +4,7 @@
     "deploy": "wrangler pages deploy ./pages"
   },
   "dependencies": {
-    "hono": "^3.2.7"
+    "hono": "^3.3.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230518.0",
