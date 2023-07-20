@@ -3,7 +3,7 @@
     "dev": "fastly compute serve --watch",
     "prebuild": "node ./build.js",
     "build": "js-compute-runtime bin/index.js bin/main.wasm",
-    "deploy": "yarn build && fastly compute deploy"
+    "deploy": "fastly compute publish"
   },
   "devDependencies": {
     "esbuild": "^0.17.12"
