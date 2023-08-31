@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import { handle } from 'hono/nextjs'
+import { handle } from 'hono/vercel'
 
 export const config = {
   runtime: 'edge',
