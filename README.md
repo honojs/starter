@@ -3,7 +3,7 @@
 You can start to build a Hono application with `create hono` command:
 
 ```
-npm create hono@latest my-app
+npm create hono@latest
 ```
 
 ## Author
