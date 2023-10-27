@@ -1,5 +1,5 @@
-import { jsxRenderer } from 'hono/jsx-renderer'
 import 'hono'
+import { jsxRenderer } from 'hono/jsx-renderer'
 
 declare module 'hono' {
   interface ContextRenderer {
@@ -7,14 +7,19 @@ declare module 'hono' {
   }
 }
 
-export const renderer = jsxRenderer(({ children, title }) => {
-  return (
-    <html>
-      <head>
-        <link href="/static/style.css" rel="stylesheet" />
-        <title>{title}</title>
-      </head>
-      <body>{children}</body>
-    </html>
-  )
-})
+export const renderer = jsxRenderer(
+  ({ children, title }) => {
+    return (
+      <html>
+        <head>
+          <link href="/static/style.css" rel="stylesheet" />
+          <title>{title}</title>
+        </head>
+        <body>{children}</body>
+      </html>
+    )
+  },
+  {
+    docType: true
+  }
+)
