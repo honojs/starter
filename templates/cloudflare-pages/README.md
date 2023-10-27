@@ -1,12 +1,8 @@
-```
+```txt
 npm install
 npm run dev
 ```
 
-```
-open http://localhost:8788
-```
-
-```
+```txt
 npm run deploy
 ```

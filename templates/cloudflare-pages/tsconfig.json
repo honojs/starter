@@ -11,5 +11,7 @@
     "types": [
       "@cloudflare/workers-types"
     ],
-  }
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  },
 }
