@@ -3,6 +3,6 @@
     "dev": "lagon dev src/index.ts"
   },
   "dependencies": {
-    "hono": "^3.8.2"
+    "hono": "^3.9.0"
   }
 }
