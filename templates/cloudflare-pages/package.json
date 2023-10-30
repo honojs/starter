@@ -4,7 +4,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "wrangler pages dev dist",
-    "deploy": "$npm_execpath build && wrangler pages deploy dist"
+    "deploy": "$npm_execpath run build && wrangler pages deploy dist"
   },
   "dependencies": {
     "hono": "^3.9.0"
