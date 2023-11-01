@@ -6,8 +6,5 @@
     "templates/*"
   ],
   "license": "MIT",
-  "packageManager": "yarn@3.4.1",
-  "dependencies": {
-    "hono": "^3.9.0"
-  }
+  "packageManager": "yarn@3.4.1"
 }
