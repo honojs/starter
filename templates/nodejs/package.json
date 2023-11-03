@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.2.0",
-    "hono": "^3.9.1"
+    "hono": "^3.9.2"
   },
   "devDependencies": {
     "tsx": "^3.12.2"
