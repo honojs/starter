@@ -3,7 +3,7 @@ import { jsxRenderer } from 'hono/jsx-renderer'
 
 declare module 'hono' {
   interface ContextRenderer {
-    (content: string, props?: { title?: string }): Response
+    (content: string | Promise<string>, props?: { title?: string }): Response
   }
 }
 
