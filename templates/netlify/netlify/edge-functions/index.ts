@@ -1,5 +1,5 @@
-import { handle } from 'https://deno.land/x/hono@v3.10.0/adapter/netlify/mod.ts'
-import { Hono } from 'https://deno.land/x/hono@v3.10.0/mod.ts'
+import { handle } from 'https://deno.land/x/hono@v3.10.1/adapter/netlify/mod.ts'
+import { Hono } from 'https://deno.land/x/hono@v3.10.1/mod.ts'
 
 const app = new Hono()
 
