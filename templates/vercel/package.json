@@ -4,7 +4,7 @@
     "deploy": "vercel"
   },
   "dependencies": {
-    "hono": "^3.11.5"
+    "hono": "^3.11.6"
   },
   "devDependencies": {
     "vercel": "^32.4.1"
