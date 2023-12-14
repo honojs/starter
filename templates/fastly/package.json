@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "@fastly/js-compute": "^2.4.0",
-    "hono": "^3.11.6"
+    "hono": "^3.11.7"
   }
 }
