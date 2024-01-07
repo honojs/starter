@@ -6,6 +6,6 @@
     "hono": "^3.12.0"
   },
   "devDependencies": {
-    "bun-types": "^1.0.7"
+    "@types/bun": "^1.0.0"
   }
 }
