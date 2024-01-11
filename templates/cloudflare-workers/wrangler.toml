@@ -1,5 +1,5 @@
 name = "%%PROJECT_NAME%%"
-compatibility_date = "2023-01-01"
+compatibility_date = "2023-12-01"
 
 # [vars]
 # MY_VARIABLE = "production_value"
