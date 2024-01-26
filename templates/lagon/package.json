@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "dev": "lagon dev src/index.ts"
-  },
-  "dependencies": {
-    "hono": "^3.12.7"
-  }
-}
