@@ -7,12 +7,12 @@
     "deploy": "$npm_execpath run build && wrangler pages deploy dist"
   },
   "dependencies": {
-    "hono": "^3.12.7"
+    "hono": "^3.12.8"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231218.0",
-    "@hono/vite-cloudflare-pages": "^0.1.2",
-    "@hono/vite-dev-server": "^0.4.0",
+    "@hono/vite-cloudflare-pages": "^0.2.2",
+    "@hono/vite-dev-server": "^0.4.1",
     "vite": "^5.0.12",
     "wrangler": "^3.22.0"
   }
