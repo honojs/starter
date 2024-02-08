@@ -1,3 +1,3 @@
 ```
-deno run --allow-net hello.ts
+deno task start
 ```
