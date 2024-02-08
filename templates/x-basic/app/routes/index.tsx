@@ -7,7 +7,7 @@ const className = css`
 `
 
 export default createRoute((c) => {
-  const name = c.req.query('name') ?? 'no name'
+  const name = c.req.query('name') ?? 'Hono'
   return c.render(
     <div class={className}>
       <h1>Hello, {name}!</h1>
