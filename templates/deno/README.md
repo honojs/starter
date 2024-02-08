@@ -1,3 +1,3 @@
 ```
-deno run --allow-net main.ts
+deno task start
 ```
