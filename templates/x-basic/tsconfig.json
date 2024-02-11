@@ -6,7 +6,7 @@
     "strict": true,
     "lib": [
       "ESNext",
-      "dom"
+      "DOM"
     ],
     "types": [
       "@cloudflare/workers-types"
