@@ -3,7 +3,7 @@
     "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
-    "@hono/node-server": "^1.8.0",
+    "@hono/node-server": "^1.8.1",
     "hono": "^4.0.4"
   },
   "devDependencies": {
