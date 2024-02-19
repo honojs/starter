@@ -9,7 +9,7 @@ export default jsxRenderer(({ children, title }) => {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{title}</title>
-        <Script src="/app/client.ts" />
+        <Script src="/app/client.ts" async />
         <Style />
       </head>
       <body>{children}</body>
