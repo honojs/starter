@@ -1,6 +1,3 @@
-name = "%%PROJECT_NAME%%"
-compatibility_date = "2023-12-01"
-
 # [vars]
 # MY_VAR = "my-variable"
 
