@@ -9,4 +9,5 @@ manifest_version = 2
 service_id = ""
 
 [scripts]
-  build = "node ./build.js && js-compute-runtime bin/index.js bin/main.wasm"
+build = "npm run build"
+post_init = "npm install"
