@@ -13,3 +13,6 @@
 # binding = "DB"
 # database_name = "my-database"
 # database_id = ""
+
+# [ai]
+# binding = "AI"
