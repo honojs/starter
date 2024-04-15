@@ -9,6 +9,7 @@
       "DOM"
     ],
     "types": [
+      "vite/client",
       "@cloudflare/workers-types"
     ],
     "jsx": "react-jsx",
