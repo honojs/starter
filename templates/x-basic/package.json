@@ -4,13 +4,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --mode client && vite build",
-    "preview": "wrangler pages dev ./dist",
-    "deploy": "$npm_execpath run build && wrangler pages deploy ./dist"
+    "preview": "wrangler pages dev",
+    "deploy": "$npm_execpath run build && wrangler pages deploy"
   },
   "private": true,
   "dependencies": {
     "hono": "^4.3.4",
-    "honox": "^0.1.15"
+    "honox": "^0.1.17"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240403.0",
