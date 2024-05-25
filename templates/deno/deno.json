@@ -4,5 +4,9 @@
   },
   "tasks": {
     "start": "deno serve main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
   }
 }
