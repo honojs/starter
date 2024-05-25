@@ -1,4 +1,4 @@
-import { Hono } from 'https://deno.land/x/hono@v4.3.11/mod.ts'
+import { Hono } from 'hono'
 
 const app = new Hono()
 
@@ -6,4 +6,4 @@ app.get('/', (c) => {
   return c.text('Hello Hono!')
 })
 
-Deno.serve(app.fetch)
+export default app

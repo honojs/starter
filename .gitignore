@@ -5,6 +5,7 @@ package-lock.json
 bin
 pkg
 .next
+deno.lock
 
 # yarn
 .yarn/*
