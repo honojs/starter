@@ -1,5 +1,12 @@
-node_modules
-dist
-.wrangler
-.dev.vars
-.hono
+# prod
+dist/
+
+# dev
+.hono/
+.wrangler/
+
+# deps
+node_modules/
+
+# env
+dev.vars

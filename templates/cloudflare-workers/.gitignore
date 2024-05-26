@@ -1,4 +1,9 @@
-node_modules
-dist
+# prod
+dist/
+
+# deps
+node_modules/
 .wrangler
+
+# env
 .dev.vars

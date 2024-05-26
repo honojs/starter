@@ -1,2 +1,5 @@
-.next
-node_modules
+# dev
+.next/
+
+# deps
+node_modules/
