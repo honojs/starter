@@ -4,7 +4,7 @@ You can start to build a Hono application with `create hono` command:
 
 ```bash
 # npm
-npm create hono@latest
+npm create hono@latest my-app
 
 # yarn
 yarn create hono my-app
