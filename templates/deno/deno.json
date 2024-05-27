@@ -1,6 +1,6 @@
 {
   "imports": {
-    "hono": "jsr:@hono/hono@4.4.0-rc.1"
+    "hono": "jsr:@hono/hono@^4.4.0"
   },
   "tasks": {
     "start": "deno serve main.ts"
