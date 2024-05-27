@@ -1,9 +1,9 @@
-import { handle } from 'https://deno.land/x/hono@v4.3.11/adapter/netlify/mod.ts'
-import { Hono } from 'https://deno.land/x/hono@v4.3.11/mod.ts'
+import { Hono } from 'jsr:@hono/hono'
+import { handle } from 'jsr:@hono/hono/netlify'
 
 const app = new Hono()
 
-app.get('/country', (c) => {
+app.get('/', (c) => {
   return c.text('Hello Hono!')
 })
 
