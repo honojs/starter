@@ -4,10 +4,10 @@ import { Hono } from 'hono'
 const app = new Hono()
 
 app.get('/', (c) => {
-  return c.text('Hello Hono!')
+  return c.text('Hello Hono2!')
 })
 
-const port = 3000
+const port = 3002
 console.log(`Server is running on port ${port}`)
 
 serve({
