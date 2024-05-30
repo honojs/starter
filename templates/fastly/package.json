@@ -6,7 +6,7 @@
     "deploy": "fastly compute publish"
   },
   "devDependencies": {
-    "esbuild": "^0.17.12"
+    "esbuild": "^0.21.4"
   },
   "dependencies": {
     "@fastly/js-compute": "3.7.0",
