@@ -1,0 +1,42 @@
+edition: 3.0.0
+name: my-app
+access: "default"
+
+vars:
+  region: "cn-hangzhou"
+
+resources:
+  my_app:
+    component: fc3
+    props:
+      region: ${vars.region}              
+      functionName: "my-app"
+      runtime: "custom.debian10"
+      description: 'hello world by serverless devs'
+      timeout: 10
+      memorySize: 512
+      environmentVariables:
+        PATH: >-
+          /var/fc/lang/nodejs20/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin
+        NODE_PATH: /opt/nodejs/node_modules
+      cpu: 0.5
+      diskSize: 512
+      code: ./dist
+      customRuntimeConfig:
+        command:
+          - node
+          - index.js
+        port: 9000
+      triggers:
+        - triggerConfig:
+            methods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+            authType: anonymous
+            disableURLInternet: false
+          triggerName: default
+          description: ''
+          qualifier: LATEST
+          triggerType: http

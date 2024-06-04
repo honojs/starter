@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "esbuild --bundle --outfile=./dist/index.js --platform=node --target=node20 ./src/index.ts",
+    "dev": "node ./dist/index.js",
+    "deploy": "s deploy -y"
+  },
+  "dependencies": {
+    "esbuild": "^0.21.4",
+    "@hono/node-server": "^1.11.2",
+    "hono": "^4.4.3"
+  },
+  "devDependencies": {
+    "@serverless-devs/s": "^3.0.8"
+  }
+}
