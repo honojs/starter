@@ -12,7 +12,6 @@ export default createRoute((c) => {
     <div class={className}>
       <h1>Hello, {name}!</h1>
       <Counter />
-    </div>,
-    { title: name }
+    </div>
   )
 })
