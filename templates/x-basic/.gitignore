@@ -19,7 +19,7 @@ node_modules/
 # env
 .env
 .env.production
-dev.vars
+.dev.vars
 
 # logs
 logs/
