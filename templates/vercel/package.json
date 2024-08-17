@@ -1,4 +1,5 @@
 {
+  "name": "vercel",
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel"

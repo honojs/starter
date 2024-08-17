@@ -1,4 +1,5 @@
 {
+  "name": "nextjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

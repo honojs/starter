@@ -1,16 +1,8 @@
 node_modules
-yarn.lock
-yarn-error.log
-package-lock.json
 bin
 pkg
 .next
 deno.lock
 
 # yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+bun.lockb

@@ -1,4 +1,5 @@
 {
+  "name": "lambda-edge",
   "type": "module",
   "scripts": {
     "build": "esbuild --bundle --outfile=./dist/index.js --platform=node --target=node20 ./src/index.ts",

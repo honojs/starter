@@ -9,7 +9,7 @@
     "format": "prettier 'templates/**/*.{ts,tsx}' --write"
   },
   "license": "MIT",
-  "packageManager": "yarn@3.4.1",
+  "packageManager": "bun@1.1.24",
   "devDependencies": {
     "prettier": "^3.3.3"
   }

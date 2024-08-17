@@ -1,4 +1,5 @@
 {
+  "name": "fastly",
   "scripts": {
     "dev": "fastly compute serve --watch",
     "prebuild": "node ./build.js",
