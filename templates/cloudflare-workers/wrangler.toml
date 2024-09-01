@@ -1,5 +1,6 @@
 name = "%%PROJECT_NAME%%"
 compatibility_date = "2024-04-01"
+# compatibility_flags = [ "nodejs_compat" ]
 
 # [vars]
 # MY_VAR = "my-variable"
