@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "wrangler dev src/index.ts",
+    "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
