@@ -7,7 +7,7 @@
     "deploy": "$npm_execpath run build && wrangler pages deploy"
   },
   "dependencies": {
-    "hono": "^4.6.4"
+    "hono": "^4.6.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240529.0",
