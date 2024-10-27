@@ -37,3 +37,12 @@ To check the formatting across the entire project, run:
 ```bash
 npx prettier . --check
 ```
+
+## Building for production
+
+Compile your project using `tsc` and start the production server:
+
+```bash
+tsc --build
+node dist/index.js
+```
