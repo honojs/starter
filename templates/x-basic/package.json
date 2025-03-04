@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --mode client && vite build && cp ./.assetsignore ./dist",
+    "build": "vite build --mode client && vite build",
     "preview": "wrangler dev",
     "deploy": "$npm_execpath run build && wrangler deploy"
   },
