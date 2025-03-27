@@ -9,5 +9,5 @@ manifest_version = 3
 service_id = ""
 
 [scripts]
-build = "npm run build"
-post_init = "npm install"
+  build = "npm run build"
+  post_init = "npm install"
