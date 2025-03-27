@@ -1,13 +1,10 @@
-const { build } = require('esbuild')
+import { build } from 'esbuild'
 
-build({
+await build({
   entryPoints: ['src/index.ts'],
   bundle: true,
   minify: true,
-  outfile: 'bin/index.js',
-  platform: 'node',
+  outfile: './dist/index.js',
+  platform: 'neutral',
   external: ['fastly:*']
-}).catch((error) => {
-  console.error(error)
-  process.exit(1)
 })

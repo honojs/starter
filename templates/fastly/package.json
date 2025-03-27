@@ -1,15 +1,17 @@
 {
+  "type": "module",
   "scripts": {
-    "dev": "fastly compute serve --watch",
-    "prebuild": "node ./build.js",
-    "build": "js-compute-runtime bin/index.js bin/main.wasm",
+    "prebuild": "node build.js",
+    "build": "js-compute-runtime ./dist/index.js ./bin/main.wasm",
+    "start": "fastly compute serve",
     "deploy": "fastly compute publish"
   },
-  "devDependencies": {
-    "esbuild": "^0.21.4"
-  },
   "dependencies": {
-    "@fastly/js-compute": "3.7.0",
+    "@fastly/js-compute": "^3.33.2",
     "hono": "^4.7.5"
+  },
+  "devDependencies": {
+    "@fastly/cli": "^11.0.0",
+    "esbuild": "^0.25.1"
   }
 }
