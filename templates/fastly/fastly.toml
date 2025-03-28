@@ -3,11 +3,11 @@
 
 name = "Hono"
 authors = [""]
-description = ""
+description = "Starter for Hono"
 language = "javascript"
-manifest_version = 2
+manifest_version = 3
 service_id = ""
 
 [scripts]
-build = "npm run build"
-post_init = "npm install"
+  build = "npm run build"
+  post_init = "npm install"
