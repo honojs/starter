@@ -4,7 +4,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "wrangler pages dev",
-    "deploy": "$npm_execpath run build && wrangler pages deploy"
+    "deploy": "$npm_execpath run build && wrangler pages deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
     "hono": "^4.7.7"

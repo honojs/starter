@@ -4,7 +4,8 @@
     "dev": "vite",
     "build": "vite build && vite build --ssr",
     "preview": "$npm_execpath run build && wrangler dev dist-server/index.js",
-    "deploy": "$npm_execpath run build && wrangler deploy dist-server/index.js"
+    "deploy": "$npm_execpath run build && wrangler deploy dist-server/index.js",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
     "hono": "^4.7.7"
