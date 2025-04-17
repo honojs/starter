@@ -4,14 +4,14 @@
     "dev": "vite",
     "build": "vite build && vite build --ssr",
     "preview": "$npm_execpath run build && wrangler dev dist-server/index.js",
-    "deploy": "$npm_execpath run build && wrangler deploy dist-server/index.js"
+    "deploy": "$npm_execpath run build && wrangler deploy dist-server/index.js",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
     "hono": "^4.7.7"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^0.1.15",
-    "@cloudflare/workers-types": "^4.20250214.0",
     "@hono/vite-build": "^1.5.0",
     "vite": "^6.1.1",
     "vite-plugin-ssr-hot-reload": "^0.4.1",
