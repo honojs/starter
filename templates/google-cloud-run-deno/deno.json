@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "hono": "jsr:@hono/hono@^4.7.7"
+  },
+  "tasks": {
+    "start": "deno run --allow-net main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}
