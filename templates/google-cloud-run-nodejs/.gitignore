@@ -1,9 +1,0 @@
-# deps
-node_modules/
-
-# env
-.env
-.env.production
-
-# misc
-.DS_Store
