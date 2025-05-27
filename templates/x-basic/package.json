@@ -18,7 +18,7 @@
     "@hono/vite-dev-server": "^0.18.2",
     "@tailwindcss/vite": "^4.0.9",
     "tailwindcss": "^4.0.9",
-    "vite": "^6.1.1",
+    "vite": "^6.3.5",
     "wrangler": "^4.4.0"
   }
 }
