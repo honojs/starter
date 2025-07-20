@@ -4,5 +4,8 @@
       "source": "/api/(.*)",
       "destination": "/api"
     }
+  ],
+  "redirects": [
+    { "source": "/", "destination": "/api", "permanent": false }
   ]
 }
