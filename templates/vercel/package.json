@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vercel dev",
     "build": "vercel build",
+    "deploy": "vercel deploy"
   },
   "dependencies": {
     "hono": "^4.8.9"
