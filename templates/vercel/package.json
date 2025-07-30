@@ -3,8 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "vercel build",
   },
   "dependencies": {
     "hono": "^4.8.9"
