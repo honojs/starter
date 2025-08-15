@@ -3,7 +3,7 @@
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "hono": "^4.9.1"
+    "hono": "^4.9.2"
   },
   "devDependencies": {
     "@types/bun": "latest"
