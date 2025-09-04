@@ -1,21 +1,24 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint"
   },
   "dependencies": {
     "hono": "^4.9.6",
-    "next": "14.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.2"
   },
   "devDependencies": {
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.26",
-    "@types/react-dom": "18.0.10",
-    "typescript": "^5"
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "@eslint/eslintrc": "^3"
   }
 }
