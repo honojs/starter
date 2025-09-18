@@ -1,6 +1,6 @@
 {
   "imports": {
-    "hono": "jsr:@hono/hono@^4.9.7"
+    "hono": "jsr:@hono/hono@^4.9.8"
   },
   "tasks": {
     "start": "deno run --allow-net main.ts"
