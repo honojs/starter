@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "lib": ["es2022"],
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "erasableSyntaxOnly": true,
+    "customConditions": [ "fastly" ],
+    "types": [ "@fastly/js-compute" ],
+  }
+}
