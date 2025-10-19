@@ -6,7 +6,8 @@
     "deploy": "fastly compute publish"
   },
   "dependencies": {
-    "@fastly/js-compute": "^3.34.0",
+    "@fastly/hono-fastly-compute": "^0.3.6",
+    "@fastly/js-compute": "^3.35.1",
     "hono": "^4.10.1"
   },
   "devDependencies": {
