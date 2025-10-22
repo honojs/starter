@@ -1,5 +1,5 @@
-import { Hono } from 'hono/quick'
-import { fire } from 'hono/service-worker'
+import { Hono } from 'hono'
+import { fire } from '@fastly/hono-fastly-compute'
 
 const app = new Hono()
 
