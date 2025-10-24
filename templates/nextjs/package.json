@@ -7,7 +7,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "hono": "^4.10.2",
+    "hono": "^4.10.3",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
