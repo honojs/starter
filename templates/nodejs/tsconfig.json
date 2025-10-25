@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "NodeNext",
+    "module": "esnext",
+    "moduleResolution": "node10",
     "strict": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
@@ -12,5 +13,8 @@
     "jsxImportSource": "hono/jsx",
     "outDir": "./dist"
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "tsc-alias": {
+    "resolveFullPaths": true
+  }
 }
