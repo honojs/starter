@@ -2,7 +2,7 @@
   "name": "hono",
   "type": "module",
   "dependencies": {
-    "hono": "^4.10.3"
+    "hono": "^4.10.4"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
