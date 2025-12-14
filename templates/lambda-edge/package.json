@@ -12,6 +12,6 @@
     "npm-run-all2": "^6.2.0"
   },
   "dependencies": {
-    "hono": "^4.11.0"
+    "hono": "^4.11.1"
   }
 }
