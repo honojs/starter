@@ -9,7 +9,7 @@
   },
   "private": true,
   "dependencies": {
-    "hono": "^4.11.5",
+    "hono": "^4.11.6",
     "honox": "0.1.52"
   },
   "devDependencies": {
