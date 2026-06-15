@@ -8,12 +8,12 @@
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
-    "hono": "^4.12.14"
+    "hono": "^4.12.25"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.2.3",
     "vite": "^6.3.5",
-    "vite-ssr-components": "^0.5.2",
+    "vite-ssr-components": "^0.6.1",
     "wrangler": "^4.17.0"
   }
 }
