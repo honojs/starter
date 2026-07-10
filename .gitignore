@@ -3,3 +3,4 @@ bin
 pkg
 .next
 pnpm-lock.yaml
+templates/deno/deno.lock
