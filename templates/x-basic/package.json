@@ -9,16 +9,16 @@
   },
   "private": true,
   "dependencies": {
-    "hono": "^4.12.28",
+    "hono": "^4.12.29",
     "honox": "0.1.59"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260420.1",
+    "@cloudflare/workers-types": "^5.20260712.1",
     "@hono/vite-build": "^1.11.1",
-    "@hono/vite-dev-server": "^0.25.2",
-    "@tailwindcss/vite": "^4.2.2",
-    "tailwindcss": "^4.2.2",
-    "vite": "^8.0.9",
-    "wrangler": "^4.83.0"
+    "@hono/vite-dev-server": "^0.26.1",
+    "@tailwindcss/vite": "^4.3.2",
+    "tailwindcss": "^4.3.2",
+    "vite": "^8.1.4",
+    "wrangler": "^4.110.0"
   }
 }
