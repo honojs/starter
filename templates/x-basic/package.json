@@ -10,7 +10,7 @@
   "private": true,
   "dependencies": {
     "hono": "^4.12.32",
-    "honox": "0.1.59"
+    "honox": "0.1.60"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260712.1",
