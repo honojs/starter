@@ -1,0 +1,19 @@
+templates/x-basic/package.json
+  s_0d61605c21561a::t_a1ef74c4b764a4 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e0092e5f771e4895f93bd249d460b5905aa44216",
+  "prompts": {},
+  "sessions": {
+    "s_0d61605c21561a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f0d099c-85fa-491f-b145-44ca5f0061d8",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
