@@ -1,0 +1,37 @@
+templates/aws-lambda/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_d49f38db23b27c 1-4
+templates/cloudflare-pages/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_8fbd88c579095a 1-6
+templates/cloudflare-workers+vite/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_9a90bb58e65e75 1-6
+templates/cloudflare-workers/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_80a9c909d83816 1-6
+templates/fastly/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_61a9696ff9f6b7 1-4
+templates/lambda-edge/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_54b53064ee1e4f 1-4
+templates/nextjs/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_4b77c47ee2c271 1-4
+templates/nodejs/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_7b88b4cd73efe3 1-4
+templates/vercel/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_82a834327b6cc2 1-4
+templates/x-basic/pnpm-workspace.yaml
+  s_f864f132c4e7ae::t_67483732915bd1 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a76d24e492a03b21b61e19166fcb9ee58699ecba",
+  "prompts": {},
+  "sessions": {
+    "s_f864f132c4e7ae": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8c6371f3-3206-4d93-8394-e209e03a1ca3",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
