@@ -1,0 +1,19 @@
+templates/cloudflare-workers+vite/package.json
+  s_9ac77f93590e29::t_7c9c439c9fc2a0 16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e7d3bd70b1b2d2be1865f5508fa96225e18c8193",
+  "prompts": {},
+  "sessions": {
+    "s_9ac77f93590e29": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9ccf2bfe-288d-48b8-ae5d-f0c766c86184",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
