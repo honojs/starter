@@ -12,6 +12,7 @@
     "npm-run-all2": "^9.0.2"
   },
   "dependencies": {
-    "hono": "^4.13.9"
+    "@hono/aws-lambda": "^1.0.0",
+    "hono": "^4.13.10"
   }
 }
