@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import { handle } from 'hono/lambda-edge'
+import { handle } from '@hono/lambda-edge'
 
 const app = new Hono()
 

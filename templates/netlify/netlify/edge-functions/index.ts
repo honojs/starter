@@ -1,5 +1,5 @@
 import { Hono } from 'jsr:@hono/hono'
-import { handle } from 'jsr:@hono/hono/netlify'
+import { handle } from 'jsr:@hono/netlify'
 
 const app = new Hono()
 
