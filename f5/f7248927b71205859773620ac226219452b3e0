@@ -1,0 +1,49 @@
+templates/aws-lambda/package.json
+  s_a34d594424e4c1::t_ec83f9002081f6 15-16
+templates/aws-lambda/src/index.ts
+  s_a34d594424e4c1::t_a1c65f98948384 2
+templates/bun/package.json
+  s_a34d594424e4c1::t_69e59455355cac 6
+templates/cloudflare-pages/package.json
+  s_a34d594424e4c1::t_8429643635cf7a 11
+templates/cloudflare-workers+vite/package.json
+  s_a34d594424e4c1::t_d9643b23d8e6af 11
+templates/cloudflare-workers/package.json
+  s_a34d594424e4c1::t_43cda2fd4cd0f2 9
+templates/deno/deno.json
+  s_a34d594424e4c1::t_5d203a17339810 3
+templates/fastly/package.json
+  s_a34d594424e4c1::t_20ba469ea564d0 11
+templates/lambda-edge/package.json
+  s_a34d594424e4c1::t_fb56cc21d84b40 16-17
+templates/lambda-edge/src/index.ts
+  s_a34d594424e4c1::t_d38ef392230f8b 2
+templates/netlify/netlify/edge-functions/index.ts
+  s_a34d594424e4c1::t_46276870712ca2 2
+templates/nextjs/app/api/[...route]/route.ts
+  s_a34d594424e4c1::t_d634549cce8de5 2
+templates/nextjs/package.json
+  s_a34d594424e4c1::t_f0b38964df9209 10-11
+templates/nodejs/package.json
+  s_a34d594424e4c1::t_c7d4b7aff9442c 10
+templates/vercel/package.json
+  s_a34d594424e4c1::t_ff849113937ffa 5
+templates/x-basic/package.json
+  s_a34d594424e4c1::t_7534a8c3775331 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f5f7248927b71205859773620ac226219452b3e0",
+  "prompts": {},
+  "sessions": {
+    "s_a34d594424e4c1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "40b51bf0-7dd6-4b41-93e4-88614937ab4a",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
