@@ -1,0 +1,67 @@
+templates/aws-lambda/AGENTS.md
+  s_7a05117556ccfc::t_a552de53fa78cc 1-6,9-13,15,20-23
+  s_7a05117556ccfc::t_e6394b9dce8ae9 7-8,14,16-19
+templates/bun/AGENTS.md
+  s_7a05117556ccfc::t_406b7abd689d50 1-11,13-21
+  s_7a05117556ccfc::t_9dd89b7efd322e 12
+templates/cloudflare-workers+vite/AGENTS.md
+  s_7a05117556ccfc::t_fe61b039092968 1-6,9-12,15-19,21,26-29
+  s_7a05117556ccfc::t_2f099db8c33db6 7-8,13-14,20,22-25
+templates/cloudflare-workers/AGENTS.md
+  s_7a05117556ccfc::t_9ab980650d6f44 1-6,9-12,15-19,21,26-29
+  s_7a05117556ccfc::t_bf21641f71b60a 7-8,13-14,20,22-25
+templates/deno/AGENTS.md
+  s_7a05117556ccfc::t_3d87d1b8702d3a 1-15
+templates/fastly/AGENTS.md
+  s_7a05117556ccfc::t_4ab03944975fd1 1-6,9-14,16,21-24
+  s_7a05117556ccfc::t_bb1379c99f1e1c 7-8,15,17-20
+templates/lambda-edge/AGENTS.md
+  s_7a05117556ccfc::t_21fb05f0e5fb1c 1-6,9-13,15,20-23
+  s_7a05117556ccfc::t_98f36d7a602645 7-8,14,16-19
+templates/netlify/AGENTS.md
+  s_7a05117556ccfc::t_f655a36a67f8f7 1-16
+templates/nextjs/AGENTS.md
+  s_7a05117556ccfc::t_56e6378d061d30 1-6,9-14,16,21-24
+  s_7a05117556ccfc::t_77175deac6cd7b 7-8,15,17-20
+templates/nodejs/AGENTS.md
+  s_7a05117556ccfc::t_1cc892a3348504 1-6,9-14,16,21-24
+  s_7a05117556ccfc::t_eafd4048d91ab8 7-8,15,17-20
+templates/vercel/AGENTS.md
+  s_7a05117556ccfc::t_6a4165353ff586 1-6,9-14,16,21-24
+  s_7a05117556ccfc::t_38c035da67e296 7-8,15,17-20
+templates/x-basic/AGENTS.md
+  s_7a05117556ccfc::t_82cd4fd969c516 1-6,9-14,16-19
+  s_7a05117556ccfc::t_67c4fe9c587eaa 7-8,15
+templates/nextjs/pnpm-workspace.yaml
+  s_7a05117556ccfc::t_7460dc8296068e 2,5
+templates/aws-lambda/package.json
+  s_7a05117556ccfc::t_da93ea3feab2e5 16
+templates/lambda-edge/package.json
+  s_7a05117556ccfc::t_705eb7f2abc2a6 17
+templates/nextjs/package.json
+  s_7a05117556ccfc::t_879458a4814d87 10
+templates/nodejs/package.json
+  s_7a05117556ccfc::t_d137cc96d314d0 9
+templates/x-basic/package.json
+  s_7a05117556ccfc::t_068e455e832c60 13
+templates/deno/deno.json
+  s_7a05117556ccfc::t_9546cf3d2b71dd 3
+templates/netlify/netlify/edge-functions/index.ts
+  s_7a05117556ccfc::t_9c90d8afae806e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "79f1e130c9aacf0b1f47b5f10afcc84fcbdeda28",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
