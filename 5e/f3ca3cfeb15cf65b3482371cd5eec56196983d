@@ -1,0 +1,88 @@
+templates/aws-lambda/AGENTS.md
+  s_7a05117556ccfc::t_a552de53fa78cc 1-6,9-13,15,20-22
+  s_7a05117556ccfc::t_e6394b9dce8ae9 8,14,16-19
+  s_7a05117556ccfc::t_e0b129c149f96b 7
+  s_7a05117556ccfc::t_8fbe1601adae1b 23
+templates/bun/AGENTS.md
+  s_7a05117556ccfc::t_406b7abd689d50 1-11,13-20
+  s_7a05117556ccfc::t_9dd89b7efd322e 12
+  s_7a05117556ccfc::t_303f109ecd0a58 21
+templates/cloudflare-workers+vite/AGENTS.md
+  s_7a05117556ccfc::t_fe61b039092968 1-6,9-12,15-19,21,26-28
+  s_7a05117556ccfc::t_2f099db8c33db6 8,13-14,20,22-25
+  s_7a05117556ccfc::t_8f46fb22da7059 7
+  s_7a05117556ccfc::t_1966f8a6205f82 29
+templates/cloudflare-workers/AGENTS.md
+  s_7a05117556ccfc::t_9ab980650d6f44 1-6,9-12,15-19,21,26-28
+  s_7a05117556ccfc::t_bf21641f71b60a 8,13-14,20,22-25
+  s_7a05117556ccfc::t_fda4f9f7f8229a 7
+  s_7a05117556ccfc::t_309f2c4e0cf778 29
+templates/deno/AGENTS.md
+  s_7a05117556ccfc::t_3d87d1b8702d3a 1-14
+  s_7a05117556ccfc::t_c9b7753f8a1d67 15
+templates/fastly/AGENTS.md
+  s_7a05117556ccfc::t_4ab03944975fd1 1-6,9-14,16,21-23
+  s_7a05117556ccfc::t_bb1379c99f1e1c 8,15,17-20
+  s_7a05117556ccfc::t_93fe04c5f1f398 7
+  s_7a05117556ccfc::t_9356b2cfc4d6fd 24
+templates/lambda-edge/AGENTS.md
+  s_7a05117556ccfc::t_21fb05f0e5fb1c 1-6,9-13,15,20-22
+  s_7a05117556ccfc::t_98f36d7a602645 8,14,16-19
+  s_7a05117556ccfc::t_b79bcfa18a371b 7
+  s_7a05117556ccfc::t_35114cd87ac728 23
+templates/netlify/AGENTS.md
+  s_7a05117556ccfc::t_f655a36a67f8f7 1-15
+  s_7a05117556ccfc::t_af355661ec5bfd 16
+templates/nextjs/AGENTS.md
+  s_7a05117556ccfc::t_56e6378d061d30 1-6,9-14,16,21-23
+  s_7a05117556ccfc::t_77175deac6cd7b 8,15,17-20
+  s_7a05117556ccfc::t_b0282fd563def4 7
+  s_7a05117556ccfc::t_5fbfdd5ce516a7 24
+templates/nodejs/AGENTS.md
+  s_7a05117556ccfc::t_1cc892a3348504 1-6,9-14,16,21-23
+  s_7a05117556ccfc::t_eafd4048d91ab8 8,15,17-20
+  s_7a05117556ccfc::t_83416970b965b5 7
+  s_7a05117556ccfc::t_ca903512862db6 24
+templates/vercel/AGENTS.md
+  s_7a05117556ccfc::t_6a4165353ff586 1-6,9-14,16,21-23
+  s_7a05117556ccfc::t_38c035da67e296 8,15,17-20
+  s_7a05117556ccfc::t_2d9de6738246d8 7
+  s_7a05117556ccfc::t_9314e29165d6ad 24
+templates/x-basic/AGENTS.md
+  s_7a05117556ccfc::t_82cd4fd969c516 1-6,9-14,16-18
+  s_7a05117556ccfc::t_67c4fe9c587eaa 8,15
+  s_7a05117556ccfc::t_735f8434534929 7
+  s_7a05117556ccfc::t_cde136c9b9411a 19
+templates/nextjs/pnpm-workspace.yaml
+  s_7a05117556ccfc::t_7460dc8296068e 2,5
+templates/aws-lambda/package.json
+  s_7a05117556ccfc::t_da93ea3feab2e5 16
+templates/lambda-edge/package.json
+  s_7a05117556ccfc::t_705eb7f2abc2a6 17
+templates/nextjs/package.json
+  s_7a05117556ccfc::t_879458a4814d87 10
+templates/nodejs/package.json
+  s_7a05117556ccfc::t_d137cc96d314d0 9
+templates/x-basic/package.json
+  s_7a05117556ccfc::t_068e455e832c60 13
+templates/deno/deno.json
+  s_7a05117556ccfc::t_9546cf3d2b71dd 3
+templates/netlify/netlify/edge-functions/index.ts
+  s_7a05117556ccfc::t_9c90d8afae806e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5ef3ca3cfeb15cf65b3482371cd5eec56196983d",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
