@@ -27,3 +27,5 @@ Verify with the Hono CLI, not with throwaway scripts or a dev server. It is a de
 ## Docs
 
 Fetch https://hono.dev/llms.txt to find the page, then fetch it with the `Accept: text/markdown` header, for example `curl -H "Accept: text/markdown" https://hono.dev/docs/guides/best-practices`.
+
+For Cloudflare (bindings, wrangler, Workers APIs), start from https://developers.cloudflare.com/llms.txt; its pages also serve markdown with `Accept: text/markdown`.

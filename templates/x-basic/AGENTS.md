@@ -17,3 +17,5 @@ The app is assembled by Vite (`import.meta.glob`), so Hono CLI cannot load `app/
 ## Docs
 
 Fetch https://hono.dev/llms.txt to find the page, then fetch it with the `Accept: text/markdown` header, for example `curl -H "Accept: text/markdown" https://hono.dev/docs/guides/best-practices`.
+
+For Cloudflare (bindings, wrangler, Workers APIs), start from https://developers.cloudflare.com/llms.txt; its pages also serve markdown with `Accept: text/markdown`.
