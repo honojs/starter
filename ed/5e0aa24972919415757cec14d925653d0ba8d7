@@ -1,0 +1,47 @@
+templates/x-basic/AGENTS.md
+  s_7a05117556ccfc::t_56e7641363f86c 15-16
+  s_7a05117556ccfc::t_4e45a4a98b0437 13
+templates/aws-lambda/AGENTS.md
+  s_7a05117556ccfc::t_a2e68a11ffa512 14-15
+  s_7a05117556ccfc::t_e77b4274415838 12
+templates/vercel/AGENTS.md
+  s_7a05117556ccfc::t_a2f7eb0aafebc1 15
+  s_7a05117556ccfc::t_f9210849f1c30f 13
+templates/cloudflare-workers+vite/AGENTS.md
+  s_7a05117556ccfc::t_018c555294ffd2 20
+  s_7a05117556ccfc::t_444c634b965873 18
+templates/cloudflare-workers/AGENTS.md
+  s_7a05117556ccfc::t_18aea5dde41e7a 20
+  s_7a05117556ccfc::t_b6c6b1c7e07e5f 18
+templates/nodejs/AGENTS.md
+  s_7a05117556ccfc::t_23ca6adff6798d 15-16
+  s_7a05117556ccfc::t_26d01ea807617f 13
+templates/bun/AGENTS.md
+  s_7a05117556ccfc::t_ca857dac631324 12
+  s_7a05117556ccfc::t_dab24d86e0c283 10
+templates/fastly/AGENTS.md
+  s_7a05117556ccfc::t_48058fbca0da06 15-16
+  s_7a05117556ccfc::t_9e7dbf0a675abc 13
+templates/nextjs/AGENTS.md
+  s_7a05117556ccfc::t_8a90d9710112b1 15-16
+  s_7a05117556ccfc::t_3936e4c2c91fc2 13
+templates/lambda-edge/AGENTS.md
+  s_7a05117556ccfc::t_0206ca402b9c16 14-15
+  s_7a05117556ccfc::t_ee7df883f81372 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ed5e0aa24972919415757cec14d925653d0ba8d7",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
