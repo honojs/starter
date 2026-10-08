@@ -1,0 +1,43 @@
+templates/aws-lambda/package.json
+  s_7a05117556ccfc::t_5c82d96aa3d433 17
+templates/bun/package.json
+  s_7a05117556ccfc::t_1790b2dfa3feab 6
+templates/cloudflare-pages/package.json
+  s_7a05117556ccfc::t_6473dc715efd51 11
+templates/cloudflare-workers+vite/package.json
+  s_7a05117556ccfc::t_0f2787e7e4ee91 11
+templates/cloudflare-workers/package.json
+  s_7a05117556ccfc::t_b75325d238cad0 9
+templates/deno/deno.json
+  s_7a05117556ccfc::t_0b73aaf9cbc01c 3
+templates/fastly/package.json
+  s_7a05117556ccfc::t_e215f3862522f5 11
+templates/lambda-edge/package.json
+  s_7a05117556ccfc::t_0d7b419ae6592c 18
+templates/netlify/netlify/edge-functions/index.ts
+  s_7a05117556ccfc::t_2d1634df149c50 1
+templates/nextjs/package.json
+  s_7a05117556ccfc::t_5fdac8c870cf54 11
+templates/nodejs/package.json
+  s_7a05117556ccfc::t_2fa52a157baae4 10
+templates/vercel/package.json
+  s_7a05117556ccfc::t_8a27c220b27223 5
+templates/x-basic/package.json
+  s_7a05117556ccfc::t_8978850c1f1733 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a9f8ba9253aba6710be360fda571988aded1ca55",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
