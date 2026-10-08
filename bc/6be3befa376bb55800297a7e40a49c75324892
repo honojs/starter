@@ -1,0 +1,37 @@
+templates/aws-lambda/AGENTS.md
+  s_7a05117556ccfc::t_a2e68a11ffa512 14-16
+templates/bun/AGENTS.md
+  s_7a05117556ccfc::t_ca857dac631324 12-13
+templates/cloudflare-workers+vite/AGENTS.md
+  s_7a05117556ccfc::t_018c555294ffd2 20-21
+templates/cloudflare-workers/AGENTS.md
+  s_7a05117556ccfc::t_18aea5dde41e7a 20-21
+templates/fastly/AGENTS.md
+  s_7a05117556ccfc::t_48058fbca0da06 15-17
+templates/lambda-edge/AGENTS.md
+  s_7a05117556ccfc::t_0206ca402b9c16 14-16
+templates/nextjs/AGENTS.md
+  s_7a05117556ccfc::t_8a90d9710112b1 15-17
+templates/nodejs/AGENTS.md
+  s_7a05117556ccfc::t_23ca6adff6798d 15-17
+templates/vercel/AGENTS.md
+  s_7a05117556ccfc::t_a2f7eb0aafebc1 15-16
+templates/x-basic/AGENTS.md
+  s_7a05117556ccfc::t_56e7641363f86c 15-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "bc6be3befa376bb55800297a7e40a49c75324892",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
