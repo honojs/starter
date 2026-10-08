@@ -1,0 +1,25 @@
+templates/aws-lambda/package.json
+  s_7a05117556ccfc::t_da93ea3feab2e5 16
+templates/lambda-edge/package.json
+  s_7a05117556ccfc::t_705eb7f2abc2a6 17
+templates/nextjs/package.json
+  s_7a05117556ccfc::t_879458a4814d87 10
+templates/nodejs/package.json
+  s_7a05117556ccfc::t_d137cc96d314d0 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "eae660626747e39749b3efa58c2b5377bc5c75c0",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
