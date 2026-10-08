@@ -9,6 +9,7 @@
     "hono": "^5.0.0-rc.0"
   },
   "devDependencies": {
+    "@hono/cli": "^1.0.0-rc.0",
     "wrangler": "^4.110.0"
   }
 }

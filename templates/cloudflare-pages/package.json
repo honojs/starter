@@ -11,6 +11,7 @@
     "hono": "^5.0.0-rc.0"
   },
   "devDependencies": {
+    "@hono/cli": "^1.0.0-rc.0",
     "@hono/vite-build": "^1.11.1",
     "@hono/vite-dev-server": "^0.26.1",
     "vite": "^8.1.4",
