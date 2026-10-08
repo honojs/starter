@@ -1,0 +1,39 @@
+templates/aws-lambda/package.json
+  s_7a05117556ccfc::t_10e23f1fcb00d8 10
+templates/bun/package.json
+  s_7a05117556ccfc::t_8a29d992a4d0ff 9
+templates/cloudflare-pages/package.json
+  s_7a05117556ccfc::t_719007049ca061 14
+templates/cloudflare-workers+vite/package.json
+  s_7a05117556ccfc::t_ff3eee8cb9681e 15
+templates/cloudflare-workers/package.json
+  s_7a05117556ccfc::t_0d908cca23b926 12
+templates/fastly/package.json
+  s_7a05117556ccfc::t_908859cf3c5bd0 14-15
+templates/lambda-edge/package.json
+  s_7a05117556ccfc::t_950ecd6c9a68c6 11
+templates/nextjs/package.json
+  s_7a05117556ccfc::t_719ca8ca34708f 17
+templates/nodejs/package.json
+  s_7a05117556ccfc::t_d0b916c8f7fa71 13
+templates/vercel/package.json
+  s_7a05117556ccfc::t_bbf9fc18eed559 8
+templates/x-basic/package.json
+  s_7a05117556ccfc::t_ed956ddea459e0 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a1b6f1be3e576f4a7ee596c2843011cf3f440db6",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
