@@ -1,0 +1,35 @@
+templates/aws-lambda/AGENTS.md
+  s_7a05117556ccfc::t_e0b129c149f96b 7
+templates/cloudflare-workers+vite/AGENTS.md
+  s_7a05117556ccfc::t_8f46fb22da7059 7
+templates/cloudflare-workers/AGENTS.md
+  s_7a05117556ccfc::t_fda4f9f7f8229a 7
+templates/fastly/AGENTS.md
+  s_7a05117556ccfc::t_93fe04c5f1f398 7
+templates/lambda-edge/AGENTS.md
+  s_7a05117556ccfc::t_b79bcfa18a371b 7
+templates/nextjs/AGENTS.md
+  s_7a05117556ccfc::t_b0282fd563def4 7
+templates/nodejs/AGENTS.md
+  s_7a05117556ccfc::t_83416970b965b5 7
+templates/vercel/AGENTS.md
+  s_7a05117556ccfc::t_2d9de6738246d8 7
+templates/x-basic/AGENTS.md
+  s_7a05117556ccfc::t_735f8434534929 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1312ce83042f012745b1f8459deb1dd333f1a2f8",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
