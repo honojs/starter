@@ -10,9 +10,10 @@ The commands below are written for npm. If the project has a `pnpm-lock.yaml`, `
 - `npm run dev` starts Vite. It is for humans; do not start it to check your work.
 - `npm run build` builds the client and the server to `dist/`; `npm run preview` serves the build with wrangler; `npm run deploy` deploys.
 
-## Verify
+## Hono CLI
 
-The app is assembled by Vite (`import.meta.glob`), so Hono CLI cannot load `app/server.ts` directly. Run `npm run build`, then check the built Worker with Hono CLI on the Workers runtime: `hono request / --runtime workerd` (the entry is `main` in `wrangler.jsonc`; run `hono` through the package manager: `npx hono`, `pnpm hono`, `yarn hono`, or `bunx hono`). Several requests go in one `hono batch - --runtime workerd` call. Use `npm run build` to catch type and build errors.
+Run `npx hono --help` first, and use the CLI instead of a dev server.
+The app is assembled by Vite (`import.meta.glob`), so the CLI cannot load `app/server.ts` directly: run `npm run build`, then use the CLI on the built Worker with `--runtime workerd`, for example `npx hono request / --runtime workerd` (the entry is `main` in `wrangler.jsonc`).
 
 ## Docs
 

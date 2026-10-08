@@ -10,14 +10,10 @@ The commands below are written for npm. If the project has a `pnpm-lock.yaml`, `
 - `npm run start` builds and serves locally with the Fastly CLI on http://localhost:7676. It is for humans; do not start it to check your work.
 - `npm run deploy` publishes with the Fastly CLI.
 
-## Verify
+## Hono CLI
 
-Verify with the Hono CLI, not with throwaway scripts or a dev server. It is a dev dependency (run it through the package manager: `npx hono`, `pnpm hono`, `yarn hono`, or `bunx hono`), loads the app in-process with `app.request()`, and prints JSON. The app is not at the default path, so pass `src/app.ts` to every command.
-
-- `hono routes src/app.ts` lists the routes; `hono request / src/app.ts` sends one request.
-- Before changing existing routes, capture the current behavior with `hono snapshot --status-only src/app.ts` (it prints batch JSONL lines).
-- To check requests — spec lines from the request, or the snapshot — run `hono batch - src/app.ts --compact` (heredoc) until the summary shows "failed": 0.
-- `hono --help` and `hono <command> --help` have the details and examples.
+Run `npx hono --help` first, and use the CLI instead of a dev server.
+The app is not at the default path, so pass `src/app.ts` to every command: `npx hono routes src/app.ts`.
 
 ## Docs
 

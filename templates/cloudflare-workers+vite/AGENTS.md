@@ -15,14 +15,9 @@ Cloudflare:
 - Bindings (KV, D1, R2, vars) are declared in `wrangler.jsonc`. After changing it, run `npm run cf-typegen` and use the generated `CloudflareBindings` type: `new Hono<{ Bindings: CloudflareBindings }>()`. Never write the bindings type by hand.
 - Hono CLI gives `c.env` the real local bindings through wrangler automatically. For the full Workers runtime, add `--runtime workerd`.
 
-## Verify
+## Hono CLI
 
-Verify with the Hono CLI, not with throwaway scripts or a dev server. It is a dev dependency (run it through the package manager: `npx hono`, `pnpm hono`, `yarn hono`, or `bunx hono`), loads the app in-process with `app.request()`, and prints JSON.
-
-- `hono routes` lists the routes; `hono request /` sends one request.
-- Before changing existing routes, capture the current behavior with `hono snapshot --status-only` (it prints batch JSONL lines).
-- To check requests — spec lines from the request, or the snapshot — run `hono batch - --compact` (heredoc) until the summary shows "failed": 0.
-- `hono --help` and `hono <command> --help` have the details and examples.
+Run `npx hono --help` first, and use the CLI instead of a dev server.
 
 ## Docs
 
