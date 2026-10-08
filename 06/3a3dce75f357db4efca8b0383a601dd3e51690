@@ -1,0 +1,23 @@
+templates/cloudflare-workers+vite/AGENTS.md
+  s_7a05117556ccfc::t_a6581ce0887747 30-31
+templates/cloudflare-workers/AGENTS.md
+  s_7a05117556ccfc::t_9afe04334fb909 30-31
+templates/x-basic/AGENTS.md
+  s_7a05117556ccfc::t_9c66fae6392e8d 20-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "063a3dce75f357db4efca8b0383a601dd3e51690",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
