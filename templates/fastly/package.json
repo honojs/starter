@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "@fastly/cli": "^15.4.0",
-    "@hono/cli": "^1.0.0-rc.3"
+    "@hono/cli": "^1.0.0-rc.4"
   }
 }
