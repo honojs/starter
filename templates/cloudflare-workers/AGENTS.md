@@ -1,19 +1,19 @@
 # AGENTS.md
 
-A [Hono](https://hono.dev) app on Cloudflare Workers. The Hono app is `src/index.ts` (default export); wrangler deploys it as the Worker.
+A [Hono](https://hono.dev) app on Cloudflare Workers. The Hono app is `src/index.ts` (default export); `cloudflare.config.ts` declares it as the Worker's entrypoint, and Vite (`@cloudflare/vite-plugin`) builds it.
 
 ## Run
 
 The commands below are written for npm. If the project has a `pnpm-lock.yaml`, `yarn.lock`, or `bun.lock`, use that package manager instead.
 
 - `npm install`
-- `npm run dev` starts `wrangler dev`. It is for humans; do not start it to check your work.
-- `npm run deploy` deploys with wrangler.
+- `npm run dev` starts `cf dev`. It is for humans; do not start it to check your work.
+- `npm run build` builds; `npm run deploy` deploys with the `cf` CLI.
 
 Cloudflare:
 
-- Bindings (KV, D1, R2, vars) are declared in `wrangler.jsonc`. After changing it, run `npm run cf-typegen` and use the generated `CloudflareBindings` type: `new Hono<{ Bindings: CloudflareBindings }>()`. Never write the bindings type by hand.
-- Hono CLI gives `c.env` the real local bindings through wrangler automatically. For the full Workers runtime, add `--runtime workerd`.
+- Bindings (KV, D1, R2, vars) are declared in `cloudflare.config.ts` with the `bindings` helpers from `cf/config`. After changing it, run `npm run typecheck` (it regenerates `.cloudflare/types`) and use the generated `Env` type: `new Hono<{ Bindings: Env }>()`. Never write the bindings type by hand.
+- Hono CLI runs the app through Vite, so `c.env` has the real local bindings automatically.
 
 ## Hono CLI
 

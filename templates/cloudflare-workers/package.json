@@ -1,15 +1,19 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify",
-    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+    "dev": "cf dev",
+    "build": "cf build",
+    "deploy": "cf deploy",
+    "typecheck": "cf workers types && tsc"
   },
   "dependencies": {
     "hono": "^5.0.0-rc.0"
   },
   "devDependencies": {
-    "@hono/cli": "^1.0.0-rc.0",
-    "wrangler": "^4.110.0"
+    "@cloudflare/vite-plugin": "beta",
+    "@hono/cli": "^1.0.0-rc.1",
+    "cf": "^1.0.0-beta.14",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
   }
 }
