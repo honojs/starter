@@ -16,6 +16,7 @@ Cloudflare:
 - `cf` is in beta. Run `npx cf --help` first; it shows how to find a command with `cf cli search`.
 - Bindings (KV, D1, R2, vars) are declared in `cloudflare.config.ts` with the `bindings` helpers from `cf/config`. After changing it, run `npm run typecheck` (it regenerates `.cloudflare/types`) and use the generated `Env` type: `new Hono<{ Bindings: Env }>()`. Never write the bindings type by hand.
 - Hono CLI runs the app through Vite, so `c.env` has the real local bindings automatically.
+- Local bindings need no IDs: declare `bindings.kv()` and Hono CLI uses a local namespace. Do not create Cloudflare resources (KV, D1, R2) or set IDs unless the user asks.
 
 ## Hono CLI
 

@@ -8,7 +8,7 @@ export default defineConfig({
     entrypoint,
     env: {
       // Declare bindings here, for example:
-      // MY_KV: bindings.kv({ id: '...' }),
+      // MY_KV: bindings.kv(),
       // MY_VAR: bindings.text('my-variable'),
     }
   }
