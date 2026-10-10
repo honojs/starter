@@ -6,7 +6,7 @@
     "hono": "^5.0.0-rc.0"
   },
   "devDependencies": {
-    "@hono/cli": "^1.0.0-rc.2",
+    "@hono/cli": "^1.0.0-rc.3",
     "@types/bun": "latest"
   }
 }

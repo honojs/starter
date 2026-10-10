@@ -5,7 +5,7 @@
     "hono": "^5.0.0-rc.0"
   },
   "devDependencies": {
-    "@hono/cli": "^1.0.0-rc.2",
+    "@hono/cli": "^1.0.0-rc.3",
     "@types/node": "^26.1.1",
     "tsx": "^4.23.0",
     "typescript": "^7.0.2"
