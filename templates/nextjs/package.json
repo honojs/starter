@@ -14,7 +14,7 @@
     "react-dom": "19.2.7"
   },
   "devDependencies": {
-    "@hono/cli": "^1.0.0-rc.0",
+    "@hono/cli": "^1.0.0-rc.1",
     "@types/node": "^26",
     "@types/react": "^19",
     "@types/react-dom": "^19",
