@@ -6,10 +6,11 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@hono/node-server": "^2.1.3",
-    "hono": "^4.13.13"
+    "@hono/node-server": "^2.1.4",
+    "hono": "^5.0.0-rc.0"
   },
   "devDependencies": {
+    "@hono/cli": "^1.0.0-rc.4",
     "@types/node": "^26.1.1",
     "tsx": "^4.23.0",
     "typescript": "^7.0.2"

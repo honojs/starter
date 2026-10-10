@@ -1,14 +1,24 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "Preserve",
     "moduleResolution": "Bundler",
     "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
     "skipLibCheck": true,
+    "types": [],
     "lib": [
       "ESNext"
     ],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"
   },
+  "include": [
+    "src",
+    "cloudflare.config.ts",
+    ".cloudflare/types"
+  ]
 }

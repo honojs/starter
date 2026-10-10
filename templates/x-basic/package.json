@@ -9,11 +9,12 @@
   },
   "private": true,
   "dependencies": {
-    "hono": "^4.13.13",
-    "honox": "0.1.61"
+    "hono": "^5.0.0-rc.0",
+    "honox": "0.1.62"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260712.1",
+    "@hono/cli": "^1.0.0-rc.4",
     "@hono/vite-build": "^1.11.1",
     "@hono/vite-dev-server": "^0.26.1",
     "@tailwindcss/vite": "^4.3.2",
