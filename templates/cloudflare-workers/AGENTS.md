@@ -12,6 +12,8 @@ The commands below are written for npm. If the project has a `pnpm-lock.yaml`, `
 
 Cloudflare:
 
+- This project uses the `cf` CLI, not wrangler. Do not add a wrangler config.
+- `cf` is in beta. Run `npx cf --help` first; it shows how to find a command with `cf cli search`.
 - Bindings (KV, D1, R2, vars) are declared in `cloudflare.config.ts` with the `bindings` helpers from `cf/config`. After changing it, run `npm run typecheck` (it regenerates `.cloudflare/types`) and use the generated `Env` type: `new Hono<{ Bindings: Env }>()`. Never write the bindings type by hand.
 - Hono CLI runs the app through Vite, so `c.env` has the real local bindings automatically.
 
@@ -23,4 +25,4 @@ Run `npx hono --help` first, and use the CLI instead of a dev server.
 
 Fetch https://hono.dev/llms.txt to find the page, then fetch it with the `Accept: text/markdown` header, for example `curl -H "Accept: text/markdown" https://hono.dev/docs/guides/best-practices`.
 
-For Cloudflare (bindings, wrangler, Workers APIs), start from https://developers.cloudflare.com/llms.txt; its pages also serve markdown with `Accept: text/markdown`.
+For Cloudflare (bindings, the `cf` CLI, Workers APIs), start from https://developers.cloudflare.com/llms.txt; its pages also serve markdown with `Accept: text/markdown`.
