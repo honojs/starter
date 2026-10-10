@@ -1,0 +1,21 @@
+templates/cloudflare-workers/AGENTS.md
+  s_7a05117556ccfc::t_9ceeb59461f9c8 19
+templates/cloudflare-workers/cloudflare.config.ts
+  s_7a05117556ccfc::t_8dc3cdf9540e83 1,10,12-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ad117a83bd2efee99483c73766da6b0ef771bc50",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "unknown"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
