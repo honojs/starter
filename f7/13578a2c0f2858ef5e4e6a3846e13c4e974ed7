@@ -1,0 +1,35 @@
+templates/aws-lambda/package.json
+  s_7a05117556ccfc::t_a049ec0eceb5e9 10
+templates/bun/package.json
+  s_7a05117556ccfc::t_b9a564dbd27514 9
+templates/cloudflare-workers/package.json
+  s_7a05117556ccfc::t_5798f722d53ec7 14
+templates/fastly/package.json
+  s_7a05117556ccfc::t_cfe577dd10713a 15
+templates/lambda-edge/package.json
+  s_7a05117556ccfc::t_8bb15d169292d9 11
+templates/nextjs/package.json
+  s_7a05117556ccfc::t_3c40b97729242e 17
+templates/nodejs/package.json
+  s_7a05117556ccfc::t_d09b23ba98dffa 13
+templates/vercel/package.json
+  s_7a05117556ccfc::t_3f15b4170cebcf 8
+templates/x-basic/package.json
+  s_7a05117556ccfc::t_5849f0accf692f 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f713578a2c0f2858ef5e4e6a3846e13c4e974ed7",
+  "prompts": {},
+  "sessions": {
+    "s_7a05117556ccfc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1ce12298-c451-41b6-80ee-a23f76a3729d",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
