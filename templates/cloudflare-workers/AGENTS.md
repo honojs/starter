@@ -17,6 +17,7 @@ Cloudflare:
 - Bindings (KV, D1, R2, vars) are declared in `cloudflare.config.ts` with the `bindings` helpers from `cf/config`. After changing it, run `npm run typecheck` (it regenerates `.cloudflare/types`) and use the generated `Env` type: `new Hono<{ Bindings: Env }>()`. Never write the bindings type by hand.
 - Hono CLI runs the app through Vite, so `c.env` has the real local bindings automatically.
 - `bindings` is imported from `cf/config`: `bindings.kv()`, `bindings.d1()`, `bindings.r2()`, `bindings.text('value')`. Local bindings need no IDs or options, and Hono CLI uses local namespaces, so there is no need to read the `cf/config` types. Do not create Cloudflare resources (KV, D1, R2) or set IDs unless the user asks.
+- A secret (a password, a signing key) is `bindings.secret()`. Put its local value in `.dev.vars` as `NAME=value`; the file is gitignored.
 
 ## Hono CLI
 
