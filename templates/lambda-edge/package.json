@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "@hono/lambda-edge": "^1.0.1",
-    "hono": "^5.0.0-rc.0"
+    "hono": "^5.0.0-rc.1"
   }
 }

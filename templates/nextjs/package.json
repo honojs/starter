@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@hono/vercel": "^1.0.1",
-    "hono": "^5.0.0-rc.0",
+    "hono": "^5.0.0-rc.1",
     "next": "^16.2.10",
     "react": "19.2.7",
     "react-dom": "19.2.7"
