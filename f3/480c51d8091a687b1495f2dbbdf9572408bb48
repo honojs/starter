@@ -1,0 +1,35 @@
+templates/lambda-edge/package.json
+  s_dc6239c7c86ef7::t_3bf68e9d485f66 11
+templates/x-basic/package.json
+  s_dc6239c7c86ef7::t_7a90d3fbf92c81 17
+templates/aws-lambda/package.json
+  s_dc6239c7c86ef7::t_e8bbc5adef674a 10
+templates/cloudflare-workers/package.json
+  s_dc6239c7c86ef7::t_fcb36143d51e50 14
+templates/fastly/package.json
+  s_dc6239c7c86ef7::t_8ac6213119d4e5 15
+templates/bun/package.json
+  s_dc6239c7c86ef7::t_7ccdeaa0740970 9
+templates/nodejs/package.json
+  s_dc6239c7c86ef7::t_53edd663c9b253 13
+templates/vercel/package.json
+  s_dc6239c7c86ef7::t_451ea46c1e7543 8
+templates/nextjs/package.json
+  s_dc6239c7c86ef7::t_2234e0c081c0be 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f3480c51d8091a687b1495f2dbbdf9572408bb48",
+  "prompts": {},
+  "sessions": {
+    "s_dc6239c7c86ef7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c0631115-fbc3-47b2-8a7b-540ed7d192d0",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
