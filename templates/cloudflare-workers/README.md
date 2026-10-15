@@ -7,15 +7,15 @@ npm run dev
 npm run deploy
 ```
 
-[For generating/synchronizing types based on your Worker configuration run](https://developers.cloudflare.com/workers/wrangler/commands/#types):
+Bindings are declared in `cloudflare.config.ts`. To generate the `Env` type from it, run:
 
 ```txt
-npm run cf-typegen
+npm run typecheck
 ```
 
-Pass the `CloudflareBindings` as generics when instantiating `Hono`:
+Then pass `Env` as the generic when instantiating `Hono`:
 
 ```ts
 // src/index.ts
-const app = new Hono<{ Bindings: CloudflareBindings }>()
+const app = new Hono<{ Bindings: Env }>()
 ```

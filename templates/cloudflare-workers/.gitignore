@@ -2,6 +2,8 @@
 dist/
 
 # dev
+.cloudflare/
+.wrangler/
 .yarn/
 !.yarn/releases
 .vscode/*
@@ -13,7 +15,6 @@ dist/
 
 # deps
 node_modules/
-.wrangler
 
 # env
 .env
