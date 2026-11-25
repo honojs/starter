@@ -7,6 +7,13 @@ npm run dev
 npm run deploy
 ```
 
+Check format, lint, and types, and run the tests:
+
+```txt
+npm run check
+npm test
+```
+
 Bindings are declared in `cloudflare.config.ts`. To generate the `Env` type from it, run:
 
 ```txt

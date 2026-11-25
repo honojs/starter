@@ -4,16 +4,30 @@
     "dev": "cf dev",
     "build": "cf build",
     "deploy": "cf deploy",
-    "typecheck": "cf workers types && tsc"
+    "check": "cf workers types && vp check",
+    "format": "vp fmt",
+    "test": "vp test",
+    "typecheck": "cf workers types && vp check --no-fmt --no-lint"
   },
   "dependencies": {
     "hono": "5.0.0-rc.1"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "beta",
+    "@cloudflare/vitest-plugin": "^1.9.2",
     "@hono/cli": "^1.0.0-rc.8",
     "cf": "^1.0.0-beta.14",
     "typescript": "^7.0.2",
-    "vite": "^8.3.0"
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8001",
+    "vite-plus": "1.8.0",
+    "vitest": "5.1.1"
+  },
+  "resolutions": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8001",
+    "vitest": "5.1.1"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8001",
+    "vitest": "5.1.1"
   }
 }

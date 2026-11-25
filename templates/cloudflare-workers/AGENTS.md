@@ -1,6 +1,6 @@
 # AGENTS.md
 
-A [Hono](https://hono.dev) app on Cloudflare Workers. The Hono app is `src/index.ts` (default export); `cloudflare.config.ts` declares it as the Worker's entrypoint, and Vite (`@cloudflare/vite-plugin`) builds it.
+A [Hono](https://hono.dev) app on Cloudflare Workers. The Hono app is `src/index.ts` (default export); `cloudflare.config.ts` declares it as the Worker's entrypoint, and Vite (`@cloudflare/vite-plugin`) builds it. The toolchain is [Vite+](https://viteplus.dev) (`vp`).
 
 ## Run
 
@@ -9,6 +9,8 @@ The commands below are written for npm. If the project has a `pnpm-lock.yaml`, `
 - `npm install`
 - `npm run dev` starts `cf dev`. It is for humans; do not start it to check your work.
 - `npm run build` builds; `npm run deploy` deploys with the `cf` CLI.
+- `npm run check` checks format, lint, and types. `npm run format` fixes the format.
+- `npm test` runs the tests in `test/` with Vitest inside the Workers runtime.
 
 Cloudflare:
 

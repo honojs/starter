@@ -9,16 +9,10 @@
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
-    "types": [],
-    "lib": [
-      "ESNext"
-    ],
+    "types": ["@cloudflare/vitest-plugin/types"],
+    "lib": ["ESNext"],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"
   },
-  "include": [
-    "src",
-    "cloudflare.config.ts",
-    ".cloudflare/types"
-  ]
+  "include": ["src", "test", "cloudflare.config.ts", ".cloudflare/types"]
 }
