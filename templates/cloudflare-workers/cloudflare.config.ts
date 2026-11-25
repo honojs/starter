@@ -13,6 +13,6 @@ export default defineConfig({
       // MY_DB: bindings.d1(),
       // MY_BUCKET: bindings.r2(),
       // MY_VAR: bindings.text('my-variable'),
-    }
-  }
+    },
+  },
 })
